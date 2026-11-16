@@ -4,6 +4,10 @@ A full-stack Student Management System built using **Java, Spring Boot, MySQL, H
 
 This application helps manage student records through a web-based dashboard with CRUD operations, search functionality, and data validation.
 
+## Application Screenshot
+
+![Student Management System Dashboard](screenshots/dashboard.png)
+
 ## Features
 
 - **Dashboard:** View total students, departments, and records.
