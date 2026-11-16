@@ -38,6 +38,9 @@ This application helps manage student records through a web-based dashboard with
 ```text
 studentmanagement/
 │
+├── screenshots/
+│   └── dashboard.png
+│
 ├── src/
 │   ├── main/
 │   │   ├── java/com/ghl/studentmanagement/
@@ -59,7 +62,8 @@ studentmanagement/
 │
 ├── pom.xml
 ├── mvnw
-└── mvnw.cmd
+├── mvnw.cmd
+└── README.md
 ```
 
 ## Getting Started
