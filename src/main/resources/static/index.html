@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Sidebar Navigation -->
+<aside class="sidebar">
+
+    <h2 class="sidebar-logo">SMS</h2>
+
+    <nav>
+        <a href="#dashboard">🏠 Dashboard</a>
+        <a href="#addStudent">👨‍🎓 Add Student</a>
+        <a href="#students">📋 Students</a>
+    </nav>
+
+    <div class="sidebar-footer">
+        Build a Better Future
+    </div>
+
+</aside>
+
+<!-- Main Dashboard Content -->
+<main class="main-content">
+
+<!-- Top Header -->
+<header class="top-header">
+    <div class="header-title">
+        Student Management System
+    </div>
+
+    <div class="admin-profile">
+        <span class="admin-avatar">A</span>
+        <span>Admin</span>
+    </div>
+</header>
+
+
+
+    <h1 id="dashboard">Student Management System</h1>
+    <p>Manage your student records easily.</p>
+
+<!-- Dashboard Summary Cards -->
+<div class="dashboard-cards">
+
+    <div class="summary-card">
+        <h3>Total Students</h3>
+        <p id="totalStudents">0</p>
+    </div>
+
+    <div class="summary-card">
+        <h3>Departments</h3>
+        <p id="totalDepartments">0</p>
+    </div>
+
+    <div class="summary-card">
+        <h3>Total Records</h3>
+        <p id="totalRecords">0</p>
+    </div>
+
+</div>
+
+
+    <!-- Add Student Section -->
+    
+<!-- Dashboard Workspace -->
+<div class="dashboard-workspace">
+
+    <!-- Add Student Panel -->
+    <section class="dashboard-panel">
+
+        <h2 id="addStudent">Add New Student</h2>
+
+        <form id="studentForm">
+
+            <label for="name">Student Name:</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter student name"
+                required
+                minlength="2"
+            >
+
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter email"
+                required
+            >
+
+            <label for="department">Department:</label>
+            <input
+                type="text"
+                id="department"
+                placeholder="Enter department"
+                required
+            >
+
+            <button type="submit">Add Student</button>
+
+        </form>
+
+    </section>
+
+    <!-- Student Records Panel -->
+    <section class="dashboard-panel">
+
+        <h2 id="students">Student Records</h2>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search by name, email or department..."
+        >
+
+        <div class="table-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Department</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody id="studentTable">
+                </tbody>
+            </table>
+
+        </div>
+
+    </section>
+
+</div>
+
+</main>
+    <script src="script.js"></script>
+
+</body>
+</html>
