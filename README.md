@@ -8,6 +8,12 @@ This application helps manage student records through a web-based dashboard with
 
 ![Student Management System Dashboard](screenshots/dashboard.png)
 
+## 🌐 Live Demo
+
+**Live Application:** https://student-management-system-pn1w.onrender.com
+
+Try the deployed Student Management System and explore its features.
+
 ## Features
 
 - **Dashboard:** View total students, departments, and records.
